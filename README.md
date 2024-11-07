@@ -23,7 +23,6 @@ This project, created as part of T-Mobile’s AI Innovation Challenge II, is an 
 ## Setup Instructions
 
 ### Prerequisites
-- Ensure you have Docker and Docker Compose installed.
 - Create an Azure OpenAI account and configure API keys.
 
 ### Clone the Repository
