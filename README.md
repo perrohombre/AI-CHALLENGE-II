@@ -14,6 +14,21 @@ This project, created as part of T-Mobile’s AI Innovation Challenge II, is an 
 - **PDF Processing**: Segments PDFs and generates embeddings to find the most relevant sections.
 - **Contextual Response Generation**: Generates responses based on relevant document sections.
 
+## Dataset Generation
+A custom dataset generation script is included to create realistic customer-salesman conversations with varied tones and characteristics.
+
+### Script Details
+- **Customer Tones**: Randomly assigned based on a weighted distribution (e.g., "aggressive," "neutral," "friendly").
+- **Salesman Profiles**: Features different salesman personas (e.g., "patient and understanding," "rude and impatient").
+- **Output**: Generates a dataset of conversations saved in both JSON and CSV formats.
+
+#### Running the Dataset Generation Script
+The script `generate_dataset.py` uses Azure OpenAI to generate and save 1000+ conversations:
+```python
+# Example usage:
+telecom_df = create_telecom_conversation_dataset_df(n_conversations=1100)
+```
+
 ## Technologies
 - **Frontend**: Streamlit
 - **AI Models**: Azure OpenAI (GPT-4o, Whisper, TTS, Embeddings)
