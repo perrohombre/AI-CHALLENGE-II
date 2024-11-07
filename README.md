@@ -28,5 +28,13 @@ This project, created as part of T-Mobile’s AI Innovation Challenge II, is an 
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/ai-challenge-ii
-cd ai-challenge-ii
+git clone https://github.com/perrohombre/AI-CHALLENGE-II
+cd AI-CHALLENGE-II
+```
+
+
+### Run
+```bash
+streamlit run main.py
+```
+
